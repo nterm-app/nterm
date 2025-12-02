@@ -17,4 +17,4 @@
 
 ## Release History
 
-Launch nterm and start using Node.js with built-in version management
+For detailed release notes and changelog, see **[HISTORY.md](HISTORY.md)**.
