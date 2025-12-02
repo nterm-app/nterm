@@ -15,12 +15,6 @@
 
 ---
 
-## Downloads
-
-| Version | Apple Silicon | Intel |
-|---------|---------------|-------|
-| v0.0.1  | [nterm-0.0.1-arm64.dmg](https://github.com/user/nterm-releases/releases/download/v0.0.1/nterm-0.0.1-arm64.dmg) | [nterm-0.0.1.dmg](https://github.com/user/nterm-releases/releases/download/v0.0.1/nterm-0.0.1.dmg) |
-
 ## Release History
 
 For detailed release notes and changelog, see **[HISTORY.md](HISTORY.md)**.
