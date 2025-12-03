@@ -1,5 +1,50 @@
 # Release History
 
+## v0.0.2 (2024-12-03)
+
+### Features
+
+#### User Profile in Titlebar
+- Display logged-in user's avatar, name, and email in titlebar
+- Auto-updates profile on login/logout (no restart required)
+- Click profile to open dashboard in browser
+- Fallback to initials when avatar is unavailable
+
+#### Account Management
+- `nterm account` - Login to nterm account via browser authentication
+- `nterm account logout` - Logout from account
+- `nterm account status` - Check current login status
+
+#### Environment Sync
+- `nterm env sync` - Apply environment variables from cloud
+- `nterm env unsync` - Reset to default LTS and clear env variables
+- Automatic Node.js version installation during sync
+
+### Improvements
+
+#### UI/UX
+- Redesigned titlebar with unified height for version badge and profile
+- Improved styling for Node.js version display
+- Better visual consistency across titlebar elements
+
+#### Backend (nterm-api)
+- File-based avatar upload system (replaces base64 storage)
+- Static file serving for uploaded avatars
+- Improved avatar URL handling
+
+#### Frontend (nterm-landing)
+- Added "Go to Terminals" button on device authorization success page
+- Fixed avatar URL transformation in API methods
+
+### Downloads
+
+| File | Architecture |
+|------|--------------|
+| `nterm-0.0.2-arm64.dmg` | Apple Silicon (M1/M2/M3) |
+| `nterm-0.0.2.dmg` | Intel (x64) |
+
+---
+
 ## v0.0.1 (2024-12-02)
 
 **Initial Release**
