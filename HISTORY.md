@@ -1,5 +1,23 @@
 # Release History
 
+## v0.0.3 (2024-12-03)
+
+### Bug Fixes
+
+#### PATH Environment
+- Added standard system paths to PATH environment
+- Fixed issue where commands like `claude`, `brew`, etc. were not found
+- Electron apps launched from Finder now include `/usr/local/bin` and `/opt/homebrew/bin`
+
+### Downloads
+
+| File | Architecture |
+|------|--------------|
+| `nterm-0.0.3-arm64.dmg` | Apple Silicon (M1/M2/M3) |
+| `nterm-0.0.3.dmg` | Intel (x64) |
+
+---
+
 ## v0.0.2 (2024-12-03)
 
 ### Features
