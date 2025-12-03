@@ -1,5 +1,35 @@
 # Release History
 
+## v0.0.4 (2025-12-03)
+
+### Features
+
+#### Multiline Input
+- Add Shift+Enter support for multiline input in apps like Claude CLI
+
+#### Link Opening
+- Add Cmd+Click to open terminal links in default browser
+
+#### Drag & Drop
+- Add drag & drop support to paste file paths into terminal
+
+#### Git Dirty State
+- Add red `*` indicator next to branch name when there are uncommitted changes
+
+### Bug Fixes
+
+#### Keyboard
+- Fix Option+Q to type `@` character (macOptionIsMeta: false)
+
+### Downloads
+
+| File | Architecture |
+|------|--------------|
+| `nterm-0.0.4-arm64.dmg` | Apple Silicon (M1/M2/M3) |
+| `nterm-0.0.4.dmg` | Intel (x64) |
+
+---
+
 ## v0.0.3 (2024-12-03)
 
 ### Bug Fixes
