@@ -1,5 +1,44 @@
 # Release History
 
+## v0.0.5 (2025-12-05)
+
+### Features
+
+#### Terminal Settings Sync
+- Customize terminal appearance from web dashboard (background color, text color, font size, font family, cursor style, cursor blink)
+- Real-time sync to terminal app via 5-second polling
+- Settings automatically reset to defaults when session is revoked
+- User profile hidden when session is deleted from dashboard
+
+#### Environment Types
+- Support for multiple environment types per project (development, staging, production, etc.)
+- `nterm env sync` - Sync development environment (default)
+- `nterm env sync <type>` - Sync specific environment type (e.g., `nterm env sync staging`)
+- Manage environment types from web dashboard
+
+### Web Dashboard
+
+#### Terminal Detail Page
+- New tab-based layout (Information / Settings)
+- Terminal settings tab with live preview
+- Color pickers for background and text colors
+- Font size slider, font family selector
+- Cursor style and blink options
+
+#### Environment Detail Page
+- Add, edit, and delete environment types
+- Separate variables per environment type
+- Sync hint showing correct CLI command for each type
+
+### Downloads
+
+| File | Architecture |
+|------|--------------|
+| `nterm-0.0.5-arm64.dmg` | Apple Silicon (M1/M2/M3) |
+| `nterm-0.0.5.dmg` | Intel (x64) |
+
+---
+
 ## v0.0.4 (2025-12-03)
 
 ### Features
