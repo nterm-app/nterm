@@ -1,5 +1,18 @@
 # Release History
 
+## v0.0.7 (2025-12-28)
+
+### Features
+
+#### Agents Support
+- Add and manage AI agents from web dashboard
+- Sync agents to terminal via `nterm agents sync`
+- Create custom agents with specific configurations
+- Agents available across all terminal sessions
+- Seamless integration with existing terminal workflows
+
+---
+
 ## v0.0.5 (2025-12-05)
 
 ### Features
